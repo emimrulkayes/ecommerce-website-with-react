@@ -1,0 +1,27 @@
+header {
+  background: #000;
+}
+
+header .navbar .nav-menu ul {
+  list-style: none;
+}
+
+header .navbar .nav-menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+header .navbar .nav-menu ul li a:hover {
+  color: #FF9900;
+}
+
+header .navbar .nav-menu ul li .active {
+  color: #FF9900;
+}
+
+header .navbar .nav-menu ul li:not(:last-child) {
+  margin-right: 1rem;
+}
+/*# sourceMappingURL=Header.css.map */

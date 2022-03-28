@@ -1,0 +1,25 @@
+{
+    "workbench.colorTheme": "Material Theme Ocean High Contrast",
+    "liveSassCompile.settings.formats": [
+    
+    
+
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/src/asssts/css"
+        }
+    ],
+    "explorer.confirmDelete": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "markdown.preview.lineHeight": 1.8,
+    "javascript.inlayHints.parameterTypes.enabled": true,
+    "bracketPairColorizer.depreciation-notice": false,
+    "[javascript]": {
+        // "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "terminal.integrated.enableMultiLinePasteWarning": false
+}

@@ -1,0 +1,26 @@
+header {
+    background: #000;
+    .navbar {
+        .nav-menu {
+            ul {
+                list-style: none;
+                li {
+                    a {
+                        text-decoration: none;
+                        color: #ffffff;
+                        transition: all 0.3s ease-in-out;
+                        &:hover {
+                            color: #FF9900;
+                        }
+                    }
+                    .active{
+                        color: #FF9900;
+                    }
+                }
+                li:not(:last-child) {
+                    margin-right: 1rem;
+                }
+            }
+        }
+    }
+}
